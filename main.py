@@ -13,7 +13,11 @@ class EIT:
 		self.root = Tk()
 		self.root.config(bg=self.bg_color)
 		self.root.geometry("600x500")
-		self.root.attributes("-fullscreen", True)
+
+ 		"""optie om de app alleen maar sluitbaar te maken met alt + f4"""
+		#self.root.protocol("WM_DELETE_WINDOW", disable_event)
+		#self.root.attributes("-fullscreen", True)
+
 		self.root.title("Griftland Iteam")
 
 		##// Afstand Input Box \\##
