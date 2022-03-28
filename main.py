@@ -13,8 +13,9 @@ class EIT:
 		self.root = Tk()
 		self.root.config(bg=self.bg_color)
 		self.root.geometry("600x500")
-
- 		"""optie om de app alleen maar sluitbaar te maken met alt + f4"""
+		def disable_event():
+			pass
+		"""optie om de app alleen maar sluitbaar te maken met alt + f4"""
 		#self.root.protocol("WM_DELETE_WINDOW", disable_event)
 		#self.root.attributes("-fullscreen", True)
 
